@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    color: #1e836c;
+    font-size: 5.625rem;
+    margin: 50px auto 0;
+    animation: rotate-h1 2s linear;
+  }
+  
+  @keyframes rotate-h1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #1e836c;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 10px auto;
+}
+
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    line-height: 2;
+}
+
+hr{
+    border: dotted #8a8a8a 12px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+/* NAV BAR */
+
+.amernav{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* TOP PART*/
+
+.top-container{
+    background-color: #e0ebe8;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.land{
+    padding-top: 100px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+/* MIDDLE PART */
+
+.middle-container{
+    margin: 100px auto;
+}
+
+.me{
+    width: 150px;
+}
+
+.intro{
+    width: 40%;
+    margin: auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.me2{
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    bottom: 10px;
+    animation: rotate1 1s linear;
+  }
+  
+  @keyframes rotate1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.developer {
+    width: 150px;
+    float: right;
+    margin-left: 30px;
+    position: relative;
+    margin-bottom: 10px;
+    animation: rotate2 1s linear;
+  }
+  
+  @keyframes rotate2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+/* BOTTOM PART */
+
+.bottom-container{
+    background-color: #e0ebe8;
+    padding: 50px 0 20px;
+}
+
+.footer-link{
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #40514E;
+}
+
+.copyright{
+    font-size: 0.75rem;
+    color: #45b29a;
+    padding: 20px;
+}
